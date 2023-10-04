@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio7 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Variables 
 		int num, res;
 		String chain;
 		Scanner sc = new Scanner(System.in);
