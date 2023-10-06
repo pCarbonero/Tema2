@@ -8,6 +8,9 @@ public class Ejercicio6 {
 		// variables
 		double a, b, c;
 		double x1, x2;
+		//variable para el discriminante
+		double discriminante;
+		//escaner para leer los coeficientes
 		Scanner sc = new Scanner(System.in); 
 		
 		System.out.println("dame un valor para a ");
@@ -17,7 +20,11 @@ public class Ejercicio6 {
 		System.out.println("dame un valor para c ");
 		c = sc.nextInt();
 		
-		if ((Math.pow(b, 2)-4*a*c) >= 0 && 2*a != 0) {
+		
+		//calculamos el discriminante
+		discriminante = (Math.pow(b, 2)-4*a*c);
+		
+		if (discriminante >= 0 && 2*a != 0) {
 			
 			x1=(-b + Math.sqrt((Math.pow(b, 2)-4*a*c)))/(2*a);
 			x2=(-b - Math.sqrt((Math.pow(b, 2)-4*a*c)))/(2*a);	
@@ -27,7 +34,6 @@ public class Ejercicio6 {
 		else {
 			System.out.println("No tiene solución ");				
 		}
-		
 		sc.close();
 	}
 
