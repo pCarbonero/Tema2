@@ -7,7 +7,7 @@ public class Ejercicio3 {
 
 	public static void main(String[] args) {
 		// Variables
-		float num1, num2, res;
+		float num1, num2, res = 0;
 		Scanner sc = new Scanner(System.in);
 		String op;
 		
@@ -32,27 +32,24 @@ public class Ejercicio3 {
 		switch (op) {
 		case "A": {
 			res = num1 + num2;
-			System.out.println(res);
 			break;
 		}
 		case "B":{
 			res = num1 - num2;
-			System.out.println(res);
 			break;
 		}
 		case "C":{
 			res = num1 * num2;
-			System.out.println(res);
 			break;
 		}
 		case "D":{
 			res = num1/num2;
-			System.out.println(res);
 			break;
 		}
 		default:
 			System.out.println("No es ninguna opción");
 		}
+		System.out.println(res);
 		sc.close();
 		
 	}
