@@ -25,6 +25,9 @@ public class Ejercicio10 {
 		else if (num2 + num3 == num1) {
 			System.out.println("La suma de dos de esos numeros da el primero ");
 		}
+		else {
+			System.out.println("La suma de esos dos números no da el tercero ");
+		}
 		
 		sc.close();
 	}
