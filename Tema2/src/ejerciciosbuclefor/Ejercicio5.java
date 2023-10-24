@@ -7,7 +7,8 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		//variables para almacenar el numero insertado, para guardar la suma de todos
 		//y para guardar la media de los números
-		int n, media, suma = 0;
+		int n, suma = 0;
+		float media;
 		//variable escaner
 		Scanner sc = new Scanner(System.in);
 		
@@ -18,7 +19,7 @@ public class Ejercicio5 {
 			suma += n;//suma el valor de n a suma
 		}
 		//hacemos la media de los números
-		media = suma/10;
+		media = (float) (suma/10);
 		//imprimimos el resultado
 		System.out.println("La media de esos números es " + media);
 		//cerramos el escaner
