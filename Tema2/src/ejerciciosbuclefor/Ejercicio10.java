@@ -16,7 +16,7 @@ public class Ejercicio10 {
 		System.out.println("Dime el segundo número. Tiene que ser mayor que el anterior ");
 		b = sc.nextInt();
 		
-		if (b > a) {			
+		if (b > a) {	//comprobamos si estan bien insertados los numeros		
 			for (int i = a; i <= b; i++) {
 				System.out.println(i);
 			}
