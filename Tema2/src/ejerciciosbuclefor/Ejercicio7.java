@@ -9,8 +9,9 @@ public class Ejercicio7 {
 		//el factorial
 		int n;
 		double factorial = 1;
+		//variable para el escaner 
 		Scanner sc = new Scanner (System.in);
-		
+		//pedimos el numero al usuario y guardam,os el numero insrtado en lavariable n
 		System.out.println("Dame un número para calcular su factorial ");
 		n = sc.nextInt();		
 		
