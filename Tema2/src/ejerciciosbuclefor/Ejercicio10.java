@@ -25,7 +25,7 @@ public class Ejercicio10 {
 			System.out.println("No es posible hacerlo ya que b es menor que a");
 		}
 		else if(a == b) {
-			System.out.println("No es posible hacerlo ya que b es igual que a");
+			System.out.println("No es posible hacerlo ya que b es igual que a"); 
 		}
 		
 		//cerramos el escaner
